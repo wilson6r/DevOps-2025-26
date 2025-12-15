@@ -8,4 +8,5 @@ De focus van dit project ligt op:
 - correcte Git & GitHub workflow
 - gebruik van `.gitignore`
 
-> ⚠️ Dit project gebruikt **geen Docker**.
+
+> ⚠️ Dit project gebruikt **VENV**.
