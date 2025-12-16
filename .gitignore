@@ -1,22 +1,17 @@
-# Python
+# Python virtual environments
+venv/
+.env/
+env/
+*_env/
+flask_env/
+sample_venv/
+
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual env
-venv/
-.venv/
-flask_env/
-env/
-
-# OS / editor
+# OS files
 .DS_Store
-.vscode/
-.idea/
 
-# Flask
-instance/
-
-# Database (meestal niet pushen)
+# Databases
 *.db

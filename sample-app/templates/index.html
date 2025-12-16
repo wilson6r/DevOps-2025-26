@@ -1,9 +1,13 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Sample app</title>
-    <link rel="stylesheet" href="/static/style.css" />
-</head>
-<body>
-    <h1>You are calling me from {{request.remote_addr}}</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sample Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+  </head>
+  <body>
+    <h1>You are calling me from {{ request.remote_addr }}</h1>
+    <h2>Current date and time: {{ datetime_now }}</h2>
+  </body>
 </html>
